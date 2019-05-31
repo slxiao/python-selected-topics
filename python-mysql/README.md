@@ -6,17 +6,17 @@
 ## 研究手段
 ### 脚本
 - 初始化mysql数据库
-  - [init_db.py](./init_db.py): 包括创建DB，创建table，添加示例等。脚本只需执行一次。如果必要，请修改数据库hostname, username和password。
+  - [init_db.py](./src/init_db.py): 包括创建DB，创建table，添加示例等。脚本只需执行一次。如果必要，请修改数据库hostname, username和password。
 - 并发读取数据库内容
-  - [stsc.py](./stsc.py): 单线程，单连接
-  - [stmc.py](./stmc.py): 单线程，多连接
-  - [mtsc.py](./mtsc.py): 多线程，单连接
-  - [mtmc.py](./mtmc.py): 多线程，多连接
-  - [mtcp.py](./mtcp.py): 多线程，连接池
+  - [stsc.py](./src/stsc.py): 单线程，单连接
+  - [stmc.py](./src/stmc.py): 单线程，多连接
+  - [mtsc.py](./src/mtsc.py): 多线程，单连接
+  - [mtmc.py](./src/mtmc.py): 多线程，多连接
+  - [mtcp.py](./src/mtcp.py): 多线程，连接池
 ### 工具
-- [cProfile](): 一种动态分析工具，测量程序每一步的执行时间。
-- 使用[Linux time]()命令，测试程序总的执行时间。
-- 使用[Limux multitime]()命令，测试程序在多次执行情况下的最大/平均/最小执行时间。
+- [cProfile](https://docs.python.org/2/library/profile.html): 一种动态分析工具，测量程序每一步的执行时间。
+- 使用[Linux time](https://linuxize.com/post/linux-time-command/)命令，测试程序总的执行时间。
+- 使用[Limux multitime](https://tratt.net/laurie/src/multitime/)命令，测试程序在多次执行情况下的最大/平均/最小执行时间。
 
 ## 研究结果
 1. 多连接的耗时显著高于单连接。
