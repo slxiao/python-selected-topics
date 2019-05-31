@@ -5,3 +5,4 @@
 - [Python并发编程技术(多线程/多进程/协程)性能PK](./python-concurrent)
 - [Python生产者/消费者问题研究](./python-producer-consumer)
 - [Python并行测试之测试用例集分割算法](./python-partition)
+- [Python竞赛算法](./python-contest)
