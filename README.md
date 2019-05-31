@@ -6,3 +6,4 @@
 - [Python生产者/消费者问题研究](./python-producer-consumer)
 - [Python并行测试之测试用例集分割算法](./python-partition)
 - [Python竞赛算法](./python-contest)
+- [基于lightGBM的Python广告转化预测算法](./python-pctr)
