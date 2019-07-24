@@ -1,10 +1,11 @@
-## 介绍
-本项目收集作者在工作中遇到的Python中高级编程案例，并进行深入剖析，力争举一反三，提升对Python的理解和娴熟运用Python开发任意应用的能力。
+## Introduction
 
-- [多线程Python程序MYSQL连接管理](./python-mysql/)
-- [Python并发编程技术(多线程/多进程/协程)性能PK](./python-concurrent)
-- [Python生产者/消费者问题研究](./python-producer-consumer)
-- [基于单节点Hapdoop的URL/DNS Map-Reduce计数算法](./python-hadoop)
-- [Python并行测试之测试用例集分割算法](./python-partition)
-- [Python竞赛算法](./python-contest)
-- [基于lightGBM的Python广告转化预测算法](./python-pctr)
+This project collects various Python programming cases for solving medium or hard probelms.
+
+- [Python multi-threading multi-SQL-connection management](./python-mysql/)
+- [Python concurrent progamming comparison: multi-threading, multi-processing and co](./python-concurrent)
+- [Python producer/consumer algorithm](./python-producer-consumer)
+- [Python map-reduce algorithm for URL/DNS counting problem](./python-hadoop)
+- [Python test suites partitioning algorithm for parallel software testing](./python-partition)
+- [Python competition algorithms](./python-contest)
+- [Python p-CTR alogrithm based on lightGBM](./python-pctr)
