@@ -2,7 +2,7 @@
 
 This project collects various Python programming cases for solving medium or hard probelms.
 
-- [Python context manager](./python-with/)
+- [Python context manager](./python-context-manager/)
 - [Python multi-threading multi-SQL-connection management](./python-mysql/)
 - [Python concurrent progamming comparison: multi-threading, multi-processing and co](./python-concurrent)
 - [Python producer/consumer algorithm](./python-producer-consumer)
