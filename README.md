@@ -1,12 +1,17 @@
-## Introduction
+# Introduction
 
-This project collects various Python programming cases for solving medium or hard probelms.
+This project collects selected Python scearios for solving medium or hard programming probelms.
 
-- [Python context manager](./python-context-manager/)
-- [Python multi-threading multi-SQL-connection management](./python-mysql/)
-- [Python concurrent progamming comparison: multi-threading, multi-processing and co](./python-concurrent)
-- [Python producer/consumer algorithm](./python-producer-consumer)
-- [Python map-reduce algorithm for URL/DNS counting problem](./python-hadoop)
-- [Python test suites partitioning algorithm for parallel software testing](./python-partition)
-- [Python competition algorithms](./python-contest)
-- [Python p-CTR alogrithm based on lightGBM](./python-pctr)
+# Scenario List
+## [Python async programming](./python-async)
+## [Python competition algorithms](./python-contest)
+## [Python concurrent progamming comparison: multi-threading, multi-processing and co](./python-concurrent)
+## [Python context manager](./python-context-manager/)
+## [Python map-reduce algorithm for URL/DNS counting problem](./python-hadoop)
+## [Python multi-threading multi-SQL-connection management](./python-mysql/)
+## [Python p-CTR alogrithm based on lightGBM](./python-pctr)
+## [Python producer/consumer algorithm](./python-producer-consumer)
+
+
+# Lisense
+MIT
